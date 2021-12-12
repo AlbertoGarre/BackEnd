@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\Books\BooksController;
 use App\Http\Controllers\Api\TarifaController;
 use App\Http\Controllers\Api\UserController;
+use App\Http\Controllers\Api\PaqueteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,3 +28,4 @@ Route::group(['middleware' => 'auth.basic'], function () {
 
 Route::apiResource('tarifas', TarifaController::class);
 Route::apiResource('users', UserController::class);
+Route::apiResource('paquetes', PaqueteController::class);
