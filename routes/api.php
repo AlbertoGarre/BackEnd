@@ -3,6 +3,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\Books\BooksController;
+use App\Http\Controllers\Api\TarifaController;
+use App\Http\Controllers\Api\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,3 +24,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::group(['middleware' => 'auth.basic'], function () {
     Route::apiResource('books', BooksController::class);
 });
+
+Route::apiResource('tarifas', TarifaController::class);
+Route::apiResource('users', UserController::class);
