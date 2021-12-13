@@ -24,7 +24,7 @@ class CreatePaquetesTable extends Migration
             $table-> string('r_cp', 255);
             $table-> string('r_poblacion', 255);
             $table-> string('r_direccion', 255);
-            $table-> string('r_atencion', 255)->default('');
+            $table-> string('r_atencion', 255)->nullable();
             $table-> string('r_telefono', 255);
             $table-> string('r_contacto', 255);
             $table-> string('r_observaciones', 255)->nullable();
@@ -34,12 +34,12 @@ class CreatePaquetesTable extends Migration
             $table-> string('e_poblacion', 255);
             $table-> string('e_direccion', 255);
             $table-> string('e_numero', 255);
-            $table-> string('e_escalera', 255)->default('');
-            $table-> string('e_planta', 255)->default('');
-            $table-> string('e_puerta', 255)->default('');
+            $table-> string('e_escalera', 255)->nullable();
+            $table-> string('e_planta', 255)->nullable();
+            $table-> string('e_puerta', 255)->nullable();
             $table-> string('e_destinatario', 255);
             $table-> string('e_telefono', 255);
-            $table-> string('e_atencion', 255)->default('');
+            $table-> string('e_atencion', 255)->nullable();
             $table-> string('e_observaciones', 255)->nullable();
             $table-> string('tarifa', 255);
             $table-> boolean('terminado');

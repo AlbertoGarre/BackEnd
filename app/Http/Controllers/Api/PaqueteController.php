@@ -98,9 +98,23 @@ class PaqueteController extends Controller
      */
     public function update(Request $request, Paquete $paquete)
     {
-        $paquete->update($request->all());
-
+        error_log('$request');
+        error_log($request);
+        error_log('$paquete');
+        error_log($paquete);
+        $id = $request->input('id');
+        error_log('$id');
+        error_log($id);
+        $paqueteBD = Paquete::find($id);
+        error_log('$paqueteBD');
+        error_log($paqueteBD);
+        $paqueteBD->asignado=$request->input('asignado');
+        $paqueteBD->save();
+        //$entrada = $request->all();
+        //$paquete->update($entrada);
         return response(['paquete' => new PaqueteResource($paquete), 'message' => 'Update successfully'], 200);
+
+        
 
     }
 
