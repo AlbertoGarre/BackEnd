@@ -60,7 +60,7 @@ class PaqueteController extends Controller
             'e_atencion' => 'max:255',
             'e_observaciones' => 'max:255',
             'tarifa' => 'required|max:255',
-            'terminado' => 'required|max:255',
+            'terminado' => 'required',
             'tipo_servicio' => 'max:255',
             'asignado' => 'max:255',
             

@@ -42,7 +42,7 @@ class PaqueteSeeder extends Seeder
             'e_atencion' => 'Juan',
             'e_observaciones' => 'Entregar antes de las 09:00',
             'tarifa' => '3',
-            'terminado' => 'false',
+            'terminado' => false,
             'tipo_servicio'=> 'recogida',
             'asignado'=> '3'
         ]);
@@ -74,7 +74,7 @@ class PaqueteSeeder extends Seeder
             'e_atencion' => 'Jesus',
             'e_observaciones' => 'Nada',
             'tarifa' => '2',
-            'terminado' => 'false',
+            'terminado' => false,
             'tipo_servicio'=> 'recogida',
             'asignado'=> '3'
         ]);
@@ -106,7 +106,7 @@ class PaqueteSeeder extends Seeder
             'e_atencion' => 'Juan',
             'e_observaciones' => 'Entregar antes de las 09:00',
             'tarifa' => '3',
-            'terminado' => 'false',
+            'terminado' => false,
             'tipo_servicio'=> 'entrega',
             'asignado'=> '2'
         ]);
@@ -138,7 +138,7 @@ class PaqueteSeeder extends Seeder
             'e_atencion' => 'Ana',
             'e_observaciones' => 'Nada',
             'tarifa' => '2',
-            'terminado' => 'false',
+            'terminado' => false,
             'tipo_servicio'=> 'entrega',
             'asignado'=> '2'
         ]);
@@ -170,7 +170,7 @@ class PaqueteSeeder extends Seeder
             'e_atencion' => 'Juan',
             'e_observaciones' => 'Entregar antes de las 09:00',
             'tarifa' => '3',
-            'terminado' => 'true',
+            'terminado' => true,
             'tipo_servicio'=> 'recogida',
         ]);
         Paquete::create([
@@ -201,7 +201,7 @@ class PaqueteSeeder extends Seeder
             'e_atencion' => 'Jesus',
             'e_observaciones' => 'Nada',
             'tarifa' => '2',
-            'terminado' => 'true',
+            'terminado' => true,
             'tipo_servicio'=> 'recogida',
         ]);
         Paquete::create([
@@ -232,7 +232,7 @@ class PaqueteSeeder extends Seeder
             'e_atencion' => 'Juan',
             'e_observaciones' => 'Entregar antes de las 09:00',
             'tarifa' => '3',
-            'terminado' => 'true',
+            'terminado' => true,
             'tipo_servicio'=> 'entrega',
         ]);
         Paquete::create([
@@ -263,7 +263,7 @@ class PaqueteSeeder extends Seeder
             'e_atencion' => 'Ana',
             'e_observaciones' => 'Nada',
             'tarifa' => '2',
-            'terminado' => 'true',
+            'terminado' => true,
             'tipo_servicio'=> 'entrega',
         ]);
     }

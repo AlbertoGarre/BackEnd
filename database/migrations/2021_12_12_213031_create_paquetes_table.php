@@ -42,7 +42,7 @@ class CreatePaquetesTable extends Migration
             $table-> string('e_atencion', 255)->default('');
             $table-> string('e_observaciones', 255)->nullable();
             $table-> string('tarifa', 255);
-            $table-> string('terminado', 255);
+            $table-> boolean('terminado');
             $table-> string('tipo_servicio', 255)->nullable();
             $table-> string('asignado', 255)->nullable();
             $table->timestamps();
