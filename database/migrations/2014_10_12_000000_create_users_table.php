@@ -23,9 +23,9 @@ class CreateUsersTable extends Migration
             $table->string('apellidos', 500);
             $table->string('telefono', 255);
             $table->string('franquicia', 255);
-            $table->string('Reparto', 255);
-            $table->string('Oficina', 255);
-            $table->string('Admin', 255);
+            $table->boolean('Reparto');
+            $table->boolean('Oficina');
+            $table->boolean('Admin');
             $table->rememberToken();
             $table->timestamps();
         });

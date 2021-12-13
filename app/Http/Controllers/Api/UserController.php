@@ -39,9 +39,9 @@ class UserController extends Controller
             'username' => 'required|max:255',
             'password' => 'required|max:255',
             'franquicia' => 'required|max:255',
-            'Reparto' => 'required|max:255',
-            'Oficina' => 'required|max:255',
-            'Admin' => 'required|max:255',
+            'Reparto' => 'required',
+            'Oficina' => 'required',
+            'Admin' => 'required',
         ]);
 
         if ($validator->fails()) {

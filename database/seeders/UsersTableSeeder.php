@@ -24,9 +24,9 @@ class UsersTableSeeder extends Seeder
             'apellidos'=> 'García',
             'telefono'=> '612123123',
             'franquicia'=> '1',
-            'Reparto'=> 'true',
-            'Oficina'=> 'true',
-            'Admin'=> 'true',
+            'Reparto'=> true,
+            'Oficina'=> true,
+            'Admin'=> true,
         ]);
         User::create([
             'name'=> 'Ana',
@@ -36,9 +36,9 @@ class UsersTableSeeder extends Seeder
             'apellidos'=> 'gil',
             'telefono'=> '968123456',
             'franquicia'=> '1',
-            'Reparto'=> 'false',
-            'Oficina'=> 'true',
-            'Admin'=> 'false',
+            'Reparto'=> false,
+            'Oficina'=> true,
+            'Admin'=> false,
         ]);
         User::create([
             'name'=> 'Juan',
@@ -48,9 +48,9 @@ class UsersTableSeeder extends Seeder
             'apellidos'=> 'Pérez',
             'telefono'=> '666123987',
             'franquicia'=> '1',
-            'Reparto'=> 'true',
-            'Oficina'=> 'false',
-            'Admin'=> 'false',
+            'Reparto'=> true,
+            'Oficina'=> false,
+            'Admin'=> false,
         ]);
         User::create([
             'name'=> 'Ramón',
@@ -60,9 +60,9 @@ class UsersTableSeeder extends Seeder
             'apellidos'=> 'Garrido',
             'telefono'=> '988123456',
             'franquicia'=> '1',
-            'Reparto'=> 'true',
-            'Oficina'=> 'false',
-            'Admin'=> 'false',
+            'Reparto'=> true,
+            'Oficina'=> false,
+            'Admin'=> false,
         ]);
         User::create([
             'name'=> 'Luis',
@@ -72,9 +72,9 @@ class UsersTableSeeder extends Seeder
             'apellidos'=> 'Heredia',
             'telefono'=> '611234567',
             'franquicia'=> '1',
-            'Reparto'=> 'true',
-            'Oficina'=> 'false',
-            'Admin'=> 'false',
+            'Reparto'=> true,
+            'Oficina'=> false,
+            'Admin'=> false,
         ]);
         User::create([
             'name'=> 'Juan Manuel',
@@ -84,9 +84,9 @@ class UsersTableSeeder extends Seeder
             'apellidos'=> 'Muñoz',
             'telefono'=> '611111222',
             'franquicia'=> '2',
-            'Reparto'=> 'true',
-            'Oficina'=> 'true',
-            'Admin'=> 'true',
+            'Reparto'=> true,
+            'Oficina'=> true,
+            'Admin'=> true,
         ]);
         User::create([
             'name'=> 'María',
@@ -96,9 +96,9 @@ class UsersTableSeeder extends Seeder
             'apellidos'=> 'Hernandez',
             'telefono'=> '611454545',
             'franquicia'=> '2',
-            'Reparto'=> 'false',
-            'Oficina'=> 'true',
-            'Admin'=> 'false',
+            'Reparto'=> false,
+            'Oficina'=> true,
+            'Admin'=> false,
         ]);
         User::create([
             'name'=> 'Paco',
@@ -108,9 +108,9 @@ class UsersTableSeeder extends Seeder
             'apellidos'=> 'Zamora',
             'telefono'=> '611999000',
             'franquicia'=> '2',
-            'Reparto'=> 'true',
-            'Oficina'=> 'false',
-            'Admin'=> 'false',
+            'Reparto'=> true,
+            'Oficina'=> false,
+            'Admin'=> false,
         ]);
         User::create([
             'name'=> 'Jose Miguel',
@@ -120,9 +120,9 @@ class UsersTableSeeder extends Seeder
             'apellidos'=> 'Buenavista',
             'telefono'=> '611343434',
             'franquicia'=> '2',
-            'Reparto'=> 'true',
-            'Oficina'=> 'false',
-            'Admin'=> 'false',
+            'Reparto'=> true,
+            'Oficina'=> false,
+            'Admin'=> false,
         ]);
         User::create([
             'name'=> 'Jesús',
@@ -132,9 +132,9 @@ class UsersTableSeeder extends Seeder
             'apellidos'=> 'Fernandez',
             'telefono'=> '611234234',
             'franquicia'=> '2',
-            'Reparto'=> 'true',
-            'Oficina'=> 'false',
-            'Admin'=> 'false',
+            'Reparto'=> true,
+            'Oficina'=> false,
+            'Admin'=> false,
         ]);
 
 
