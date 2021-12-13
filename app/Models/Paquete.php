@@ -40,6 +40,7 @@ class Paquete extends Model
         'tarifa',
         'terminado',
         'tipo_servicio',
+        'asignado'
 
     ];
 

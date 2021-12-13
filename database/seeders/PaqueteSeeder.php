@@ -44,6 +44,7 @@ class PaqueteSeeder extends Seeder
             'tarifa' => '3',
             'terminado' => 'false',
             'tipo_servicio'=> 'recogida',
+            'asignado'=> '3'
         ]);
         Paquete::create([
             'g_email' => 'juanpa@gmail.com',
@@ -75,6 +76,7 @@ class PaqueteSeeder extends Seeder
             'tarifa' => '2',
             'terminado' => 'false',
             'tipo_servicio'=> 'recogida',
+            'asignado'=> '3'
         ]);
         Paquete::create([
             'g_email' => 'raulmartinez@gmail.com',
@@ -106,6 +108,7 @@ class PaqueteSeeder extends Seeder
             'tarifa' => '3',
             'terminado' => 'false',
             'tipo_servicio'=> 'entrega',
+            'asignado'=> '2'
         ]);
         Paquete::create([
             'g_email' => 'sergioramos@gmail.com',
@@ -137,6 +140,7 @@ class PaqueteSeeder extends Seeder
             'tarifa' => '2',
             'terminado' => 'false',
             'tipo_servicio'=> 'entrega',
+            'asignado'=> '2'
         ]);
         Paquete::create([
             'g_email' => 'GamusinoMartinez@gmail.com',
